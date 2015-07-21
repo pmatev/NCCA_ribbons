@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_shading">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../dc/dea/class_ribbon.html#a22c45a3e6d5674433a155687502bf370" target="_parent">SHADING</a>
+  <span class="SRScope">Ribbon</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_state">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../d2/dc4/class_solo.html#a996b4660753ae7956d2a83c53acd3c85" target="_parent">STATE</a>
+  <span class="SRScope">Solo</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>
